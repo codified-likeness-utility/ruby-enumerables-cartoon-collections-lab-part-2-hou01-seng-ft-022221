@@ -28,8 +28,9 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.select do |obj| 
     if valid_calls === obj[0]
-      p obj[0]
+      p valid_calls[1]
+    else
+      p nil
     end
   end
-  valid_calls[1]
 end
