@@ -28,9 +28,9 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.select do |element|
     if element == valid_calls
-      return element.shift
+      puts element.shift
     else
-      nil
+      puts nil
     end
 end
 end
