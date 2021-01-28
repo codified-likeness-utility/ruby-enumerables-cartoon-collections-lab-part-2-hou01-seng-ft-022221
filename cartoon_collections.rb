@@ -31,4 +31,5 @@ def find_valid_calls(planeteer_calls)
       p obj[0]
     end
   end
+  valid_calls
 end
