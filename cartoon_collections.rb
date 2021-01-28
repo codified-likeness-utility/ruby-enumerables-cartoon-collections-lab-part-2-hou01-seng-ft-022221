@@ -27,10 +27,10 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.select do |obj| 
-    if valid_calls === obj
-      obj[0]
+    if valid_calls === obj[0]
+      obj[0][0]
     else
-      obj[0]
+      nil
     end
   end
 end
