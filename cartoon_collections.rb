@@ -27,7 +27,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.select do |element|
-    if element =~ valid_calls
+    if element == valid_calls
       puts element.shift
     else
       puts nil
