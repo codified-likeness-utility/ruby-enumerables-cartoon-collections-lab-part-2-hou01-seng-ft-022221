@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
     if element == valid_calls
       return element.shift
     else
-      return nil
+      nil
     end
 end
 end
