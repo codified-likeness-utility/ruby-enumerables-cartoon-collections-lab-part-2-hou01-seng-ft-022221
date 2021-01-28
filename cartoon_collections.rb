@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
     if valid_calls === obj
       obj.first
     else
-      nil
+      obj.first
     end
   end
 end
